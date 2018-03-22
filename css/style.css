@@ -1,18 +1,21 @@
-@import url("https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:400,500");
+
 body {
   line-height: 1.4;
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
+}
+
 p {
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   color: #9a9a9a;
   font-size: 15px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 600;
 }
 
@@ -396,7 +399,7 @@ a:focus, a:hover {
 .header-bradcrumb a, .header-bradcrumb .active {
   color: #cfcfcf;
   font-weight: 200;
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .header-bradcrumb a:hover {
@@ -439,12 +442,7 @@ a:focus, a:hover {
 .commonTab .tab-content {
   padding-top: 30px;
 }
-/*
-.bg-pricing {
-  background: url("../images/pricing-bg.jpg");
-  background-size: cover;
-}
-*/
+
 .single-page-header {
   background: #1f2532;
   padding: 50px 0;
@@ -748,6 +746,8 @@ a:focus, a:hover {
 
 .about-2 h2 {
   position: relative;
+  font-weight: 300;
+  
 }
 
 .about-2 h2:before {
@@ -979,67 +979,6 @@ a:focus, a:hover {
   color: #666;
 }
 
-/*=================================================================
-  Pricing section
-==================================================================*/
-/*
-.pricing-table .pricing-item {
-  margin-bottom: 15px;
-  border-radius: 3px;
-  padding-bottom: 40px;
-  text-align: center;
-  background: #f9f9f9;
-}
-
-.pricing-table .pricing-item a.btn-main, .pricing-table .pricing-item a.btn-main-sm {
-  text-transform: uppercase;
-  margin-top: 20px;
-}
-
-.pricing-table .pricing-item ul {
-  padding: 20px 0 10px;
-}
-
-.pricing-table .pricing-item li {
-  font-weight: 400;
-  padding: 10px 0;
-  color: #666;
-}
-
-.pricing-table .pricing-item li i {
-  margin-right: 6px;
-}
-
-.pricing-table .price-title {
-  padding: 30px 0 20px;
-  text-align: center;
-  border-top-right-radius: 3px;
-  border-top-left-radius: 3px;
-  color: #fff;
-}
-
-.pricing-table .price-title > h3 {
-  color: #fff;
-  font-weight: 700;
-  margin: 0 0 5px;
-  font-size: 15px;
-  text-transform: uppercase;
-}
-
-.pricing-table .price-title > p {
-  color: #fff;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 18px;
-  margin-top: 5px;
-  width: 60%;
-  margin: 0 auto;
-}
-
-.pricing-table .price-title .value {
-  font-size: 50px;
-  padding: 10px 0;
-}
 
 /*=================================================================
   Portfolio section
@@ -1697,7 +1636,7 @@ a:focus, a:hover {
   letter-spacing: 1px;
   text-transform: capitalize;
   transition: color .3s;
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   display: block;
 }
 
