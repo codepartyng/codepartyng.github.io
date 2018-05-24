@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Ubuntu:400,500");
-
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600');
 body {
   line-height: 1.4;
   font-family: "Ubuntu", sans-serif;
@@ -466,19 +466,21 @@ a:focus, a:hover {
 
 .navigation {
   transition: .3s all;
-  background: #1f2532;
+  background: #ffffff;
 }
 
 .navigation .navbar-nav > li.active a {
-  color: #fff;
+  
 }
 
 .navigation .navbar-nav > li > a {
-  color: #707d8f;
+  color: #1d1f2c;
   font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
   line-height: 26px;
-  padding: 20px 15px !important;
+  padding: 21px 15px !important;
   transition: .2s ease-in-out 0s;
+  
 }
 
 @media (max-width: 480px) {
@@ -499,7 +501,7 @@ a:focus, a:hover {
 }
 
 .navigation .navbar-toggler {
-  color: #fff;
+  color: blue;
   font-size: 30px;
   cursor: pointer;
   outline: none;
@@ -584,20 +586,28 @@ a:focus, a:hover {
   padding-left: 30px;
 }
 
+
+
 @media (max-width: 480px) {
   .hero-area .block {
     padding: 0;
   }
 }
-
-.hero-area .block h2 {
-  font-size: 48px;
+.hero-area .block h3{
+    font-family: 'Open Sans', sans-serif;
+    color: #D6DEE6;
+}
+.hero-area .block h2  {
+  font-size: 34px;
   margin-bottom: 20px;
 }
 
+
 .hero-area .block p {
-  color: #707d8f;
-  margin-bottom: 20px;
+  color: #D6DEE6;
+  margin-bottom: 36px;
+  font-family: 'Open Sans', sans-serif;
+  
 }
 
 .hero-area .block .list-inline {
@@ -746,7 +756,10 @@ a:focus, a:hover {
 
 .about-2 h2 {
   position: relative;
-  font-weight: 300;
+  font-weight: 100;
+  font-family: Ubuntu;
+  color: #707070;
+  font-size: 30px;
   
 }
 
@@ -871,7 +884,9 @@ a:focus, a:hover {
 
 .social-icon li {
   display: inline-block;
-  margin-right: 10px;
+  margin-left: 10px;
+
+  
 }
 
 .social-icon li a {
