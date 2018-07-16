@@ -10,9 +10,9 @@
 	// 	document.getElementById('preloader').style.display = 'none';
 	// }
 
-	$(window).on("load",function(){
-		$('#preloader').fadeOut('slow',function(){$(this).remove();});
-	});
+	$(window).load(function() {
+     $('#loading').hide();
+  });
 
 
 
